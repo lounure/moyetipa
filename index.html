@@ -63,8 +63,20 @@
     <div class="day">
         <h2 class="day-title">День 3</h2>
         <p>Напишите как прошел день</p>
-        <input type="text">
+        <input type="text" id="moodInput">
+        <button id="pressMe">
+            Press me!
+        </button>
     </div>
 </body>
+
+<script>
+    document.querySelector('#pressMe').addEventListener(
+        'click', ()=>{
+            let text = document.querySelector('#moodInput').value
+            alert(text)
+        }
+    )
+</script>
 
 </html>

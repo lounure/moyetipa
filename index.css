@@ -8,12 +8,15 @@ table, th, td, caption {
   }
 
 .day {
-    padding: 7px;
-    background-color: #ececec;
+    background-color: #f7f7f7;
     width: 950px;
     margin: 0 auto 16px;
     border-radius: 12px;
+    padding: 16px;
 }  
 .day-title{
     font-family: sans-serif;
+}
+#table1{
+    margin: 0 auto;
 }
